@@ -1,0 +1,39 @@
+USE [AnnouncementDB]
+GO
+
+INSERT INTO [dbo].[Announcements]
+    ([Title], [Description], [DateAdded])
+VALUES
+    ('Great Movies to Watch This Year', 'Check out the latest Movies of 2023 that are worth watching in theaters.', '2023-05-10'),
+    ('Watch This Year for Amazing Movies', 'Discover the best movies of 2023 that are worth watching in theaters.', '2023-05-10'),
+    ('Simple Movies to Watch Now', 'Explore a collection of movies which you like', '2023-01-20'),
+    ('Exciting Movies Premiere Announcement', 'Don''t miss the highly anticipated movie premiere!', '2023-06-15'),
+    ('Upcoming Movie Marathon Event', 'Join us for a marathon of your favorite movies!', '2023-07-01'),
+    ('Exclusive Movie Merchandise Sale', 'Get exclusive deals on merchandise from your favorite movies!', '2023-06-22'),
+    ('Job Opportunities in the Film Industry', 'Multiple job openings in the exciting world of movies.', '2023-06-20'),
+    ('Limited Edition Movie Posters', 'Rare movie posters now available for collectors.', '2023-05-18'),
+    ('New Movie Themed Restaurant Opening', 'Experience the magic of movies at our newly opened restaurant.', '2023-03-10'),
+    ('Special Screening and Travel Deals', 'Enjoy a special movie screening and explore travel offers.', '2023-06-01'),
+    ('Fitness Challenge with Movie Themes', 'Join our movie themed fitness challenge and transform your body!', '2023-04-05'),
+    ('Art Exhibition Inspired by Movies', 'Explore the intersection of art and movies at our upcoming exhibition.', '2023-07-10'),
+    ('Tech Product Launch for Movie Enthusiasts', 'Introducing movie themed technology products.', '2023-06-30'),
+    ('Educational Webinar on Movie Making', 'Learn valuable skills in our free webinar on movie production.', '2023-07-05'),
+    ('Charity Fundraiser with Movie Night', 'Support a noble cause and enjoy a movie night.', '2023-08-15'),
+    ('Movie Merchandise Sale Extravaganza', 'Massive discounts on a wide range of movie merchandise.', '2023-06-25'),
+    ('Business Conference on Movie Industry', 'Expand your network at our movie industry conference.', '2023-09-01'),
+    ('Live Music Performance with Movie Soundtracks', 'Enjoy a captivating live music performance featuring popular movie soundtracks.', '2023-07-20'),
+    ('New Movie Premiere with Exclusive Access', 'Be the first to watch this highly anticipated movie premiere.', '2023-06-28'),
+    ('Gaming Tournament with Movie Inspired Games', 'Compete against the best gamers in our movie themed gaming tournament.', '2023-07-15'),
+    ('Classic Movies Marathon Event', 'Relive the magic of classic movies in our marathon event!', '2023-08-05'),
+    ('Movie Awards Night', 'Celebrate the best movies of the year at our exclusive awards night.', '2023-09-10'),
+    ('Outdoor Movie Screening Under the Stars', 'Experience movies like never before under the starry sky.', '2023-07-25'),
+    ('Movie Trivia Night', 'Test your movie knowledge and win exciting prizes!', '2023-08-01'),
+    ('Movie Club Membership Offer', 'Join our movie club and enjoy exclusive benefits.', '2023-09-15'),
+    ('Movie Themed Family Fun Day', 'Bring your family for a day filled with movie inspired activities.', '2023-07-30'),
+    ('Movie Critics Panel Discussion', 'Join the panel of renowned critics as they discuss the latest movies.', '2023-08-20'),
+    ('Movie themed Cooking Class', 'Learn to cook delicious dishes inspired by famous movies.', '2023-09-05'),
+    ('Indoor Movie Marathon for Rainy Days', 'Enjoy a cozy movie marathon indoors during rainy weather.', '2023-08-10'),
+    ('Virtual Movie Trivia Contest', 'Put your movie knowledge to the test in our online trivia contest.', '2023-09-20'),
+    ('Movies in the Park', 'Watch your favorite movies on a big screen in the park.', '2023-08-15');
+
+GO
